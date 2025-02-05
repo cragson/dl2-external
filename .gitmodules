@@ -1,0 +1,3 @@
+[submodule "dl2-external/osmium"]
+	path = dl2-external/osmium
+	url = https://github.com/cragson/osmium
