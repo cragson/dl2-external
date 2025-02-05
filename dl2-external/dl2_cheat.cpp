@@ -13,6 +13,7 @@
 
 #include "module_list.hpp"
 #include "ft_consume.hpp"
+#include "ft_money.hpp"
 
 bool dl2_cheat::setup_features()
 {
@@ -46,11 +47,18 @@ bool dl2_cheat::setup_features()
 	cons->set_activation_delay(420);
 	cons->set_virtual_key_code(VK_NUMPAD5);
 
+	auto mon = std::make_unique< ft_money  >();
+	mon->set_name(L"Add 10.000 Money");
+	mon->disable_print_status();
+	mon->set_activation_delay(420);
+	mon->set_virtual_key_code(VK_NUMPAD0);
+
 	this->m_features.push_back(std::move(durex));
 	this->m_features.push_back(std::move(god));
 	this->m_features.push_back(std::move(stm));
 	this->m_features.push_back(std::move(chems));
 	this->m_features.push_back(std::move(cons));
+	this->m_features.push_back(std::move(mon));
 
     return true;
 }

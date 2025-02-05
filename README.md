@@ -17,17 +17,20 @@ Just a few examples for you:
 ## Cheat features
 
 - **Player**
-	 - Godmode
-	 - Infinite Stamina
-	 - Infinite Chemical Resistance
+	 - [x] Godmode
+	 - [x] Infinite Stamina
+	 - [x] Infinite Chemical Resistance
+	 - [x] Infinite Money
+	 - [ ] Infinite XP (Combat & Parkour)
 	 
 - **Weapons**
-	- Auto Repair (use the weapon once and it restores it's maximum durability automatically)
-	- Infinite Durability
+	- [x] Auto Repair (use the weapon once and it restores it's maximum durability automatically)
+	- [x] Infinite Durability
+	- [ ] Infinite Ammo
 
 - **Items**
-	- No Item Consumption
-	- Dupe-Exploit
+	- [x] No Item Consumption (Infinite Crafting Ressources, Infinite Throwables)
+	- [x] Dupe-Exploit
 
 
 ## How to run the cheat

@@ -63,7 +63,10 @@
       <Filter>files\features</Filter>
     </ClCompile>
     <ClCompile Include="ft_consume.cpp">
-      <Filter>files</Filter>
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_money.cpp">
+      <Filter>files\features</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,8 +124,6 @@
     <ClInclude Include="globals.hpp">
       <Filter>files\cheat</Filter>
     </ClInclude>
-    <ClInclude Include="module_list.hpp" />
-    <ClInclude Include="structs.hpp" />
     <ClInclude Include="ft_godmode.hpp">
       <Filter>files\features</Filter>
     </ClInclude>
@@ -132,7 +133,18 @@
     <ClInclude Include="ft_chems.hpp">
       <Filter>files\features</Filter>
     </ClInclude>
-    <ClInclude Include="ft_consume.hpp" />
+    <ClInclude Include="ft_consume.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_money.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="module_list.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">

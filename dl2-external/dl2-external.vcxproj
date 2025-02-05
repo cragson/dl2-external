@@ -146,6 +146,7 @@
     <ClCompile Include="ft_consume.cpp" />
     <ClCompile Include="ft_durex.cpp" />
     <ClCompile Include="ft_godmode.cpp" />
+    <ClCompile Include="ft_money.cpp" />
     <ClCompile Include="ft_stamina.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="osmium\Memory\Hook\hook.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="ft_consume.hpp" />
     <ClInclude Include="ft_durex.hpp" />
     <ClInclude Include="ft_godmode.hpp" />
+    <ClInclude Include="ft_money.hpp" />
     <ClInclude Include="ft_stamina.hpp" />
     <ClInclude Include="globals.hpp" />
     <ClInclude Include="module_list.hpp" />
