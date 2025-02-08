@@ -79,14 +79,14 @@ bool dl2_cheat::setup_offsets()
 
 	Offsets::weapon_durability = durex;
 
-	const auto ml_cnt_enc = gamedll->find_pattern(L"48 8B 3D E7 DC C3 02", false);
+	const auto ml_cnt_enc = gamedll->find_pattern(L"48 81 EC ? ? ? ? 48 83 3D", false);
 
 	if (!ml_cnt_enc)
 		return false;
 
-	const auto dword_displ = gamedll->deref_address< uint32_t >(ml_cnt_enc + 3);
+	const auto dword_displ = gamedll->deref_address< uint32_t >(ml_cnt_enc + 10);
 
-	Offsets::module_list_constant_encrypted = ( ml_cnt_enc - gamedll_base ) + dword_displ + gamedll_base + 7;
+	Offsets::module_list_constant_encrypted = ml_cnt_enc  + dword_displ + 0xF;
 
 	const auto xp = gamedll->find_pattern(L"48 F7 D5 33 D2 48 89", false);
 
